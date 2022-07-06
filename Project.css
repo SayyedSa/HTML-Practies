@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/the-taj-mahal-palace-hotel-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav-index: inherit;
+    z-index: fixed;
+}
+
+nav .H1 {
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav .Logo {
+    width: 25%;
+    text-align: center;
+}
+
+nav .Menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav .Menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: italic;
+}
+
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    text-transform: capitalize;
+}
+
+section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all.5s ease-in;
+}
+
+section .Bone {
+    background-color: rgb(191, 218, 241);
+    color: black;
+}
+
+.Bone:hover {
+    background-color: #88b894;
+    color: white;
+}
+
+section .Btwo {
+    background-color: #88b894;
+    color: white;
+}
+
+.Btwo:hover {
+    background-color: rgb(191, 218, 241);
+    color: black;
+}
+
+P {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: rgb(188, 169, 188);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: burlywood;
+}
+
+footer {
+    background-color: aqua;
+
+}
